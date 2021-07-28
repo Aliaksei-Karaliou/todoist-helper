@@ -1,17 +1,17 @@
 .wrapper {
-    display: grid;
-    grid-template-rows: 60px 1fr;
-    grid-template-columns: 2fr 10fr;
-    grid-template-areas:
-"header";
 }
 
 .header {
-    grid-area: header;
+    display: grid;
+    grid-template-columns: 60px 1fr;
 }
 
 .menu {
-    grid-area: menu;
+    background-color: aquamarine;
+}
+
+.icon {
+    grid-area: icon;
 }
 
 .content {

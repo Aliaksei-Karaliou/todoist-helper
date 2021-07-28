@@ -1,26 +1,12 @@
 import './App.css';
 import Header from "./Header";
+import Content from "./Content";
 
 function App() {
     return (
         <div className="wrapper">
-            <header className="header">
-                HEADER
-                <nav className="menu">
-                    MENU
-                </nav>
-            </header>
-            <div className="content">
-                CONTENT
-            </div>
-        </div>
-    )
-}
-
-function T() {
-    return (
-        <div className="App">
-            DEF
+            <Header/>
+            <Content/>
         </div>
     )
 }

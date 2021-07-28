@@ -1,7 +1,11 @@
+import Menu from "./Menu";
+import Icon from "./Icon";
+
 function Header() {
     return (
-        <div className="App">
-            DEF
+        <div className="header">
+            <Icon/>
+            <Menu/>
         </div>
     )
 }
