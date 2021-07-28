@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./Header";
 
 function App() {
     return (
-        <div className="App">
-            <ul>
-                <li>Abc</li>
-                <li>Abc</li>
-                <li>Abc</li>
-                <li>Abc</li>
-                <li>Abc</li>
-                <li>Abc</li>
-            </ul>
-            <Header/>
+        <div className="wrapper">
+            <header className="header">
+                HEADER
+                <nav className="menu">
+                    MENU
+                </nav>
+            </header>
+            <div className="content">
+                CONTENT
+            </div>
         </div>
     )
 }
 
-function Header() {
+function T() {
     return (
         <div className="App">
             DEF
